@@ -589,24 +589,116 @@ footer p {
     letter-spacing: 1px;
 }
 
-/* responsive */
 @media (max-width: 768px) {
-    .about-container,
-    .skills-grid,
+
+    /* navbar */
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    
+    .intro {
+        font-size: 18px;
+    }
+
+    .main-name {
+        font-size: 40px;
+    }
+
+    .tagline {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .badge {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .cta {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    /* Sections */
+    section {
+        padding: 60px 15px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    /* about */
+    .about-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-card {
+        padding: 20px;
+    }
+
+    /* skills */
+    .skills-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-box {
+        width: 80%;
+    }
+
+    /* projects */
     .container {
         flex-direction: column;
+        align-items: center;
     }
-    
-    .about-card,
+
     .card {
-        max-width: 100%;
+        width: 90%;
     }
-    
-    section {
-        padding: 60px 20px;
+
+    /* experiance */
+    .timeline {
+        gap: 15px;
     }
-    
-    .section-title {
-        font-size: 32px;
+
+    .exp {
+        padding: 20px;
+    }
+
+    /* contact */
+    .contact-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-socials {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .social-btn {
+        width: 80%;
+        text-align: center;
+    }
+
+    /* footer */
+    footer p {
+        font-size: 12px;
     }
 }
